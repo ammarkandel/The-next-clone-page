@@ -12,56 +12,56 @@
 /* Style Navbar */
 
 .navbar {
-    height: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: rgb(153, 153, 153, 0.4) 1px solid;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: rgb(153, 153, 153, 0.4) 1px solid;
 }
 
 .logo {
-    height: auto;
-    width: 5rem;
-    padding: 0 6px 6px 10px;
-    background-color: black;
+  height: auto;
+  width: 5rem;
+  padding: 0 6px 6px 10px;
+  background-color: black;
 }
 
 .main-nav {
-    display: none;
+  display: none;
 }
 
 .nav-icons {
-    font-size: 20px;
-    color: red;
-    padding-right: 15px;
+  font-size: 20px;
+  color: red;
+  padding-right: 15px;
 }
 
 .nav-icons .main-search-icon {
-    text-decoration: none;
-    color: rgb(206, 204, 204);
-    padding-right: 10px;
+  text-decoration: none;
+  color: rgb(206, 204, 204);
+  padding-right: 10px;
 }
 
 .nav-icons .menu {
-    cursor: pointer;
-    margin-right: 5px;
+  cursor: pointer;
+  margin-right: 5px;
 }
 
 .nav-icons .search-icon:hover {
-    color: gray;
+  color: gray;
 }
 
 /* Start media for Navbar */
 
 @media (min-width: 797px) {
-    .navbar {
-        height: 80px;
-        justify-content: inherit;
-    }
+  .navbar {
+      height: 80px;
+      justify-content: inherit;
+  }
 
-    .logo {
-        padding: 20px 7px 7px 15px;
-    }
+  .logo {
+      padding: 20px 7px 7px 15px;
+  }
 
     .main-nav {
         display: block;
@@ -153,54 +153,54 @@
 /* Start Style Header */
 
 .header {
-    height: 460px;
+  height: 460px;
 }
 
 .header-article-1,.header-article-2,.header-article-3 {
-    height: 145px;
-    margin: 8px;
-    background-image: url("./images/Snag_3e684c11-796x416.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+  height: 145px;
+  margin: 8px;
+  background-image: url("./images/Snag_3e684c11-796x416.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header-container-articles .overlay, .header-article-1 .overlay{
-    display: block;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8));
-    text-decoration:none;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8));
+  text-decoration:none;
 }
 
 .header-container-articles .overlay:hover,.header-article-1 .overlay:hover {
-    background: linear-gradient(rgba(0, 0, 0,0.1),rgba(0, 0, 0, 0.8));
+  background: linear-gradient(rgba(0, 0, 0,0.1),rgba(0, 0, 0, 0.8));
 }
 
 .header-article-2 .overlay > *,.header-article-3 .overlay > *,.header-article-1 .overlay > * {
-    margin: 5px 5px 5px 10px;
+  margin: 5px 5px 5px 10px;
 }
 
 .header-article-2 div,.header-article-3 div,.header-article-1 div{
-    color: gray;
-    font-size: 12px;
+  color: gray;
+  font-size: 12px;
 }
 
 .header-article-1 h4, .header-article-1 h5 {
-    color: white;
+  color: white;
 }
 
 .header-article-1 .header-logo {
-    display: none;
+  display: none;
 }
 
 .header-container-articles h4 {
-    color: white;
+  color: white;
 }
 
 .header-container-articles h5 {
-    color: white;
+  color: white;
 }
 
 /* Start Media for header */
@@ -284,45 +284,45 @@
 /* Start Style latest-news section */
 
 .latest-news {
-    display: grid;
-    grid-template-columns: auto;
-    row-gap: 5px;
-    margin-top: 40px;
-    margin-left: 10px;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 5px;
+  margin-top: 40px;
+  margin-left: 10px;
 }
 
 .latest-news-article {
-    display: flex;
+  display: flex;
 }
 
 .latest-news-article h5 {
-    margin: 5px;
-    font-size: 14px;
+  margin: 5px;
+  font-size: 14px;
 }
 
 .latest-news-article h6 {
-    color: gray;
-    margin: 5px;
+  color: gray;
+  margin: 5px;
 }
 
 .latest-news-article h5:hover {
-    color: red;
-    text-decoration: underline;
-    cursor: pointer;
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .news-link {
-    text-decoration: none;
-    color: red;
-    font-size: 30px;
-    font-weight: 800;
-    display: block;
-    margin-top: 45px;
-    margin-left: 10px;
+  text-decoration: none;
+  color: red;
+  font-size: 30px;
+  font-weight: 800;
+  display: block;
+  margin-top: 45px;
+  margin-left: 10px;
 }
 
 .news-link:hover {
-    color: black;
+  color: black;
 }
 
 /* Start Media For latest-news */
@@ -381,109 +381,109 @@
 /* Start Style latest-funding */
 
 .latest-funding-links {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 0 0 15px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 0 15px 10px;
 }
 
 .latest-funding-links a {
-    text-decoration: none;
-    color: red;
-    font-size: 30px;
-    font-weight: 800;
-    margin-bottom: 5px;
+  text-decoration: none;
+  color: red;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 5px;
 }
 
 .latest-funding-links a:hover {
-    color: black;
+  color: black;
 }
 
 .latest-funding-links ul {
-    list-style-type: none;
-    color: white;
+  list-style-type: none;
+  color: white;
 }
 
 .latest-funding-links ul li {
-    color: red;
-    display: block;
-    margin-right: 5px;
-    font-size: 14px;
+  color: red;
+  display: block;
+  margin-right: 5px;
+  font-size: 14px;
 }
 
 .latest-funding-links ul li:hover {
-    color: black;
-    cursor: pointer;
+  color: black;
+  cursor: pointer;
 }
 
 .latest-funding {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .funding-companies {
-    display: grid;
-    grid-template-columns: auto;
-    row-gap: 5px;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 5px;
 }
 
 .funding-company {
-    margin: 0 5px 0 5px;
+  margin: 0 5px 0 5px;
 }
 
 .funding-company img {
-    position: absolute;
-    margin: 10px 0 0 10px;
+  position: absolute;
+  margin: 10px 0 0 10px;
 }
 
 .funding-company .company-name,.funding-company .company-money {
-    text-align: center;
-    padding-top: 10px;
-    font-weight: 800;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 800;
 }
 
 .funding-company .company-name {
-    background-color: red;
-    height: 40px;
-    color: white;
+  background-color: red;
+  height: 40px;
+  color: white;
 }
 
 .funding-company .company-money {
-    background-color: rgba(248, 94, 94, 0.5);
-    height: 50px;
+  background-color: rgba(248, 94, 94, 0.5);
+  height: 50px;
 }
 
 .funding-company .company-money span {
-    display: block;
-    font-size: 9px;
-    color: gray;
+  display: block;
+  font-size: 9px;
+  color: gray;
 }
 
 .company-info ul {
-    list-style-type: none;
-    font-size: 13px;
-    background-color: rgba(248, 144, 144, 0.4);
-    padding-bottom: 20px;
-    border-bottom: 1px solid  rgba(248, 94, 94, 0.5);;
+  list-style-type: none;
+  font-size: 13px;
+  background-color: rgba(248, 144, 144, 0.4);
+  padding-bottom: 20px;
+  border-bottom: 1px solid  rgba(248, 94, 94, 0.5);;
 }
 
 .company-info li {
-    padding-top: 13px;
-    padding-left: 10px;
-    cursor: pointer;
+  padding-top: 13px;
+  padding-left: 10px;
+  cursor: pointer;
 }
 
 .company-info .funding-info {
-    padding: 20px 20px 20px 10px;
-    font-size: 12px;
-    background-color: rgba(248, 144, 144, 0.4);
+  padding: 20px 20px 20px 10px;
+  font-size: 12px;
+  background-color: rgba(248, 144, 144, 0.4);
 }
 
 /* Start Media For latest-funding */
 
 @media (min-width: 797px) {
-    .funding-companies {
-        grid-template-columns: auto auto auto;
-    }
+  .funding-companies {
+    grid-template-columns: auto auto auto;
+  }
 
     .latest-funding-links ul {
         color: red;
@@ -521,80 +521,80 @@
 /* Start style articles section */
 
 .articles-section {
-    display: grid;
-    grid-template-columns: auto;
-    row-gap: 5px;
-    margin: 30px 15px 15px 15px;
+  display: grid;
+  grid-template-columns: auto;
+  row-gap: 5px;
+  margin: 30px 15px 15px 15px;
 }
 
 .article-link {
-    text-decoration: none;
-    font-size: 30px;
-    color: red;
-    font-weight: 800;
-    margin-bottom: 20px;
+  text-decoration: none;
+  font-size: 30px;
+  color: red;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
 .article-content {
-    background-image: url("./images/Snag_3e684c11-796x416.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 300px;
+  background-image: url("./images/Snag_3e684c11-796x416.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
 }
 
 .article-layout {
-    display: block;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-decoration: none;
+  display: block;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-decoration: none;
 }
 
 .article-layout h3 ,.article-layout h5{
-    color: white;
-    margin: 0 0 15px 10px;
+  color: white;
+  margin: 0 0 15px 10px;
 }
 
 .article-layout h3:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .article-layout span {
-    color: gray;
-    font-size: 12px;
-    margin: 0 0 15px 10px;
+  color: gray;
+  font-size: 12px;
+  margin: 0 0 15px 10px;
 }
 
 .latest-trend {
-    display: flex;
-    margin-top: 2px;
-    background-color: rgba(248, 144, 144, 0.4);
-    color: red;
+  display: flex;
+  margin-top: 2px;
+  background-color: rgba(248, 144, 144, 0.4);
+  color: red;
 }
 
 .latest-trend h6 {
-    margin: 10px 0 15px 10px;
+  margin: 10px 0 15px 10px;
 }
 
 .latest-trend h4 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .list-of-articles {
-    color: red;
-    margin: 0 10px 0 15px;
+  color: red;
+  margin: 0 10px 0 15px;
 }
 
 .list-of-articles a {
-    text-decoration: none;
-    color: gray;
-    font-size: 14px;
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
 }
 
 .list-of-articles a:hover {
-    color: black;
+  color: black;
 }
 
 .list-of-articles li {
@@ -669,25 +669,25 @@ footer {
 }
 
 .social-links .contact-links li:hover {
-    color: white;
+  color: white;
 }
 
 .copyright {
-    background-color: black;
-    height: 100px;
-    text-align: center;
-    color: gray;
-    display: flex;
-    justify-content: center;
+  background-color: black;
+  height: 100px;
+  text-align: center;
+  color: gray;
+  display: flex;
+  justify-content: center;
 }
 
 .copyright h6 {
-    margin-top: 20px;
-    width: 200px;
+  margin-top: 20px;
+  width: 200px;
 }
 
 .copyright img {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 @media(min-width: 797px) { 
