@@ -37,10 +37,15 @@
     padding-right: 15px;
 }
 
-.nav-icons .search-icon {
+.nav-icons .main-search-icon {
     text-decoration: none;
     color: rgb(206, 204, 204);
     padding-right: 10px;
+}
+
+.nav-icons .menu {
+    cursor: pointer;
+    margin-right: 5px;
 }
 
 .nav-icons .search-icon:hover {
