@@ -76,7 +76,8 @@
     justify-content: space-between;
   }
 
-  .upperbar .upperbar-1,.upperbar .upperbar-2 {
+  .upperbar .upperbar-1,
+  .upperbar .upperbar-2 {
     list-style-type: none;
     padding-top: 8px;
     cursor: pointer;
@@ -146,7 +147,6 @@
   .logo {
     display: none;
   }
-
 }
 
 /* End Media for Navbar */
@@ -157,7 +157,7 @@
   height: 460px;
 }
 
-.header-article-1,.header-article-2,.header-article-3 {
+.header-article-1, .header-article-2, .header-article-3 {
   height: 145px;
   margin: 8px;
   background-image: url("./images/Snag_3e684c11-796x416.png");
@@ -175,11 +175,14 @@
   text-decoration:none;
 }
 
-.header-container-articles .overlay:hover,.header-article-1 .overlay:hover {
+.header-container-articles .overlay:hover,
+.header-article-1 .overlay:hover {
   background: linear-gradient(rgba(0, 0, 0,0.1),rgba(0, 0, 0, 0.8));
 }
 
-.header-article-2 .overlay > *,.header-article-3 .overlay > *,.header-article-1 .overlay > * {
+.header-article-2 .overlay > *,
+.header-article-3 .overlay > *,
+.header-article-1 .overlay > * {
   margin: 5px 5px 5px 10px;
 }
 
@@ -206,7 +209,7 @@
 
 /* Start Media for header */
 
-@media (min-width: 797px) { 
+@media (min-width: 797px) {
   .header {
     display: flex;
     height: 300px;
@@ -238,7 +241,8 @@
     font-size: 17px;
   }
 
-  .header-article-2 .overlay > *,.header-article-3 .overlay > * {
+  .header-article-2 .overlay > *,
+  .header-article-3 .overlay > * {
     margin: 3px 3px 3px 10px;
   }
 
@@ -349,7 +353,8 @@
     height: 150px;
   }
 
-  .latest-news-article h5,.latest-news-article h6{ 
+  .latest-news-article h5,
+  .latest-news-article h6 { 
     margin-left: 0;
   }
 }
@@ -375,7 +380,8 @@
     width: 88%;
   }
 
-  .latest-news-article h5,.latest-news-article h6{
+  .latest-news-article h5,
+  .latest-news-article h6 {
     margin-left: 0;
   }
 }
@@ -556,7 +562,8 @@
   text-decoration: none;
 }
 
-.article-layout h3 ,.article-layout h5{
+.article-layout h3,
+.article-layout h5 {
   color: white;
   margin: 0 0 15px 10px;
 }
@@ -614,7 +621,6 @@
 /* Start Media For articles-section */
 
 @media(min-width: 797px) {
-
   .articles-section {
     grid-template-columns: auto auto;
     column-gap: 20px;
@@ -622,7 +628,6 @@
 }
 
 @media(min-width: 992px) {
-
   .articles-section {
     grid-template-columns: auto auto auto;
     column-gap: 20px;
@@ -646,7 +651,7 @@ footer {
   padding-top: 50px;
 }
 
-.social-links .media-links li{
+.social-links .media-links li {
   display: inline-block;
   height: 40px;
   width: 40px;
