@@ -452,6 +452,27 @@
   font-size: 14px;
 }
 
+.social-links .contact-links li {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 6px;
+    color: gray;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.social-links .media-links li {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(87, 85, 85);
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 6px;
+}
+
 .latest-funding-links ul li:hover {
   color: black;
   cursor: pointer;
@@ -661,30 +682,9 @@ footer {
   padding-top: 50px;
 }
 
-.social-links .media-links li {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  background-color: rgb(87, 85, 85);
-  padding-top: 10px;
-  cursor: pointer;
-  font-size: 18px;
-  margin-left: 6px;
-}
-
 .social-links .media-links li:hover {
   background-color: rgb(36, 35, 35);
   border: 1px solid  rgb(87, 85, 85);
-}
-
-.social-links .contact-links li { 
-  display: inline-block;
-  font-size: 12px;
-  margin-left: 6px;
-  color: gray;
-  margin-top: 20px;
-  cursor: pointer;
 }
 
 .social-links .contact-links li:hover {
