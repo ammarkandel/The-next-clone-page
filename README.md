@@ -13,7 +13,7 @@ Clone of thenextweb home page. [thenextweb](https://thenextweb.com/)
 
 ## Live Demo
 
-[Live Demo Link](https://ammarkandel.github.io/The-next-web-clone/)
+[Live Demo Link](https://ammarkandel.github.io/The-next-clone-page/)
 
 👤 **Ammar El refay Kandel**
 
