@@ -5,10 +5,6 @@
     font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
 }
 
-body {
-    height: 10000px;
-}
-
 .container {
     margin: 15px;
 }
@@ -624,3 +620,70 @@ body {
 
 /* End Media For articles-section */
 
+/* Start style footer */
+
+footer {
+    margin-top: 30px;
+}
+
+.social-links {
+   height: 180px;
+   background-color: rgb(36, 35, 35);
+   text-align: center;
+   color: white;
+   padding-top: 50px;
+}
+
+.social-links .media-links li{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(87, 85, 85);
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+.social-links .media-links li:hover {
+    background-color: rgb(36, 35, 35);
+    border: 1px solid  rgb(87, 85, 85);
+}
+
+.social-links .contact-links li { 
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 6px;
+    color: gray;
+    margin-top: 20px;
+    cursor: pointer;
+ }
+
+ .social-links .contact-links li:hover {
+     color: white;
+ }
+
+ .copyright {
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    color: gray;
+    display: flex;
+    justify-content: center;
+ }
+
+ .copyright h6 {
+     margin-top: 20px;
+     width: 200px;
+ }
+
+ .copyright img {
+     margin-top: 10px;
+ }
+
+ @media(min-width: 797px) { 
+    .copyright h6 {
+        width: auto;
+    }
+  }
