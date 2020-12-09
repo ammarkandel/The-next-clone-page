@@ -434,6 +434,12 @@
   list-style-type: none;
 }
 
+.article-layout span {
+  color: gray;
+  font-size: 12px;
+  margin: 0 0 15px 10px;
+}
+
 .latest-funding-links ul span {
   color: white;
 }
@@ -520,12 +526,6 @@
   height: 50px;
 }
 
-.article-layout span {
-  color: gray;
-  font-size: 12px;
-  margin: 0 0 15px 10px;
-}
-
 .funding-company .company-money span {
   display: block;
   font-size: 9px;
@@ -553,10 +553,6 @@
     grid-template-columns: auto auto auto;
   }
 
-  .latest-funding-links ul span {
-    color: red;
-  }
-
   .latest-funding-links ul li {
     display: inline-block;
     font-size: 17px;
@@ -564,7 +560,7 @@
   }
 
   .latest-funding-links ul span {
-    display: inline-block;
+    color: red;
   }
 }
 
