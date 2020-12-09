@@ -5,8 +5,9 @@
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
 }
 
-.container {
-  margin: 15px;
+.main-container {
+  margin: 0 auto;
+  max-width: 1330px;
 }
 
 /* Style Navbar */
@@ -53,7 +54,7 @@
 
 /* Start media for Navbar */
 
-@media (min-width: 797px) {
+@media (min-width: 768px) {
   .navbar {
     height: 80px;
     justify-content: inherit;
@@ -214,7 +215,7 @@
 
 /* Start Media for header */
 
-@media (min-width: 797px) {
+@media (min-width: 768px) {
   .header {
     display: flex;
     height: 300px;
@@ -222,6 +223,11 @@
 
   .header-article-1 {
     height: 100%;
+  }
+
+  .header-article-1 .overlay .header-logo {
+    height: 120px;
+    margin-bottom: 10px;
   }
 
   .header-container-articles {
@@ -288,7 +294,7 @@
 
   .header-article-1 .header-logo {
     display: block;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
 }
 
@@ -346,12 +352,12 @@
 
 /* Start Media For latest-news */
 
-@media (min-width: 797px) {
+@media (min-width: 768px) {
   .latest-news {
     grid-template-columns: auto auto auto;
     row-gap: 5px;
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 10px;
   }
 
   .latest-news-article {
@@ -364,6 +370,10 @@
     height: 150px;
   }
 
+  .latest-news-article h5 {
+    width: 86%;
+  }
+
   .latest-news-article h5,
   .latest-news-article h6 {
     margin-left: 0;
@@ -372,14 +382,14 @@
 
 @media (min-width: 992px) {
   .news-link {
-    margin-left: 50px;
+    margin-left: 20px;
   }
 
   .latest-news {
     grid-template-columns: auto auto auto auto;
     row-gap: 5px;
     margin-top: 40px;
-    margin-left: 50px;
+    margin-left: 25px;
   }
 
   .latest-news-article {
@@ -388,6 +398,10 @@
   }
 
   .latest-news-article img {
+    width: 88%;
+  }
+
+  .latest-news-article h5 {
     width: 88%;
   }
 
@@ -548,7 +562,7 @@
 
 /* Start Media For latest-funding */
 
-@media (min-width: 797px) {
+@media (min-width: 768px) {
   .funding-companies {
     grid-template-columns: auto auto auto;
   }
@@ -648,7 +662,7 @@
 
 /* Start Media For articles-section */
 
-@media (min-width: 797px) {
+@media (min-width: 768px) {
   .articles-section {
     grid-template-columns: auto auto;
     column-gap: 20px;
@@ -706,7 +720,7 @@ footer {
   margin-top: 10px;
 }
 
-@media (min-width: 797px) {
+@media (min-width: 768px) {
   .copyright h6 {
     width: auto;
   }
