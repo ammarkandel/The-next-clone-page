@@ -179,7 +179,7 @@
 
 .header-container-articles .overlay:hover,
 .header-article-1 .overlay:hover {
-  background: linear-gradient(rgba(0, 0, 0,0.1), rgba(0, 0, 0, 0.8));
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8));
 }
 
 .header-article-2 .overlay > *,
@@ -372,7 +372,6 @@
 
 @media (min-width: 992px) {
   .news-link {
-
     margin-left: 50px;
   }
 
@@ -427,8 +426,15 @@
   color: black;
 }
 
+.latest-funding-links li {
+  padding-top: 15px;
+}
+
 .latest-funding-links ul {
   list-style-type: none;
+}
+
+.latest-funding-links ul span {
   color: white;
 }
 
@@ -547,12 +553,11 @@
     grid-template-columns: auto auto auto;
   }
 
-  .latest-funding-links ul {
+  .latest-funding-links ul span {
     color: red;
   }
 
   .latest-funding-links ul li {
-
     display: inline-block;
     font-size: 17px;
     font-weight: 550;
@@ -574,7 +579,6 @@
   }
 
   .latest-funding-links ul span {
-
     display: inline-block;
   }
 }
